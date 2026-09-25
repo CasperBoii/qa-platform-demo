@@ -4,19 +4,17 @@
 
 A small, runnable sample from a test-management platform I created. It demonstrates how I model test execution and protect the meaning of QA results: a retest should update the current outcome without erasing history, and an untested case should never look like a pass.
 
-This repository contains a selected execution-domain extract, a local interactive UI illustration, and synthetic examples. The image below is from the local demo, not the original application.
-
-![QA Platform synthetic execution overview: test cases, statuses, and retest detail](docs/images/execution-overview.png)
+This repository contains a selected execution-domain extract and synthetic examples. It is **not the complete application or a hosted UI demo**.
 
 ## Start here — two minutes
 
-1. Open [the visual demo](visual/index.html) locally. Try a retest and watch the result history update.
-2. See the [retest example screenshot](docs/images/retest-history.png) and [sample terminal run](docs/demo-output.md).
-3. Open the [execution rules](src/execution.ts), [regression tests](test/execution.test.ts), and [scope notes](docs/scope.md).
+1. Read the [sample run](docs/demo-output.md).
+2. Open the [execution rules](src/execution.ts).
+3. Review the [regression tests](test/execution.test.ts) and [scope notes](docs/scope.md).
 
 ## Run locally
 
-The visual demo needs only a browser: open `visual/index.html` from a clone or the ZIP. For the TypeScript CLI and tests, use Node.js 26 or later. No package installation, credentials, database, or network access is needed after cloning.
+Requires Node.js 26 or later. No package installation, credentials, database, or network access is needed after cloning.
 
 ```sh
 npm run demo
@@ -39,7 +37,7 @@ The tests exercise the state matrix, empty and duplicate selections, retests, sc
 
 I designed the QA workflow and built the original platform with AI-assisted implementation and review. This portfolio sample isolates its execution rules so a reviewer can understand and test them without internal systems. Comments and validation messages were adapted for this English-language sample; the surrounding CLI and fixtures were written for the demo.
 
-The visual page is a purpose-built illustration with fictional cases and in-memory results. The broader platform includes case management, plans, evidence, and integrations; the screenshot is not presented as its production UI.
+The broader platform includes test-case management, plans, evidence, and integrations. Those features are **outside this sample** and are not implied by its test results.
 
 ## Related work
 
