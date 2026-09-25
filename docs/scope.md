@@ -4,7 +4,7 @@
 
 `src/execution.ts` is adapted from the platform's pure execution-domain module. The imported vocabulary is reduced to the statuses and run states needed by this example. Internal document references and implementation history are removed; two validation messages are translated into English.
 
-The behavior of the extracted functions is retained. The English regression suite and CLI are portfolio-specific demonstrations. The demo data describes a fictional sign-in flow and is not an exported run.
+The behavior of the extracted functions is retained; it was re-checked against the current platform source on 2026-09-25 and the logic is unchanged. The English regression suite and CLI are portfolio-specific demonstrations. The demo data describes a fictional sign-in flow and is not an exported run.
 
 ## Boundaries
 

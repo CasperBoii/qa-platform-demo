@@ -37,7 +37,7 @@ The tests exercise the state matrix, empty and duplicate selections, retests, sc
 
 I designed the QA workflow and built the original platform with AI-assisted implementation and review. This portfolio sample isolates its execution rules so a reviewer can understand and test them without internal systems. Comments and validation messages were adapted for this English-language sample; the surrounding CLI and fixtures were written for the demo.
 
-The broader platform includes test-case management, plans, evidence, and integrations. Those features are **outside this sample** and are not implied by its test results.
+The broader platform, in daily use by a QA team, has grown well beyond this extract: versioned test-case management, plans and runs, evidence, execution dashboards, a workspace issue tracker (board, planner, milestones, inbox), GitLab and Google Drive integrations, and an MCP server that lets AI agents read and write QA data under each user's own permissions. Those features are **outside this sample** and are not implied by its test results.
 
 ## Related work
 
