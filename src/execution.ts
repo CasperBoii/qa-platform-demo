@@ -4,7 +4,7 @@ import { QA_RESULT_STATUSES, type QaResultStatus, type QaRunState } from "./type
 const RUN_TRANSITIONS: Readonly<Record<QaRunState, ReadonlyArray<QaRunState>>> = {
   DRAFT: ["ACTIVE", "CANCELLED"],
   ACTIVE: ["CLOSED", "CANCELLED"],
-  CLOSED: ["ACTIVE"], 
+  CLOSED: ["ACTIVE"],
   CANCELLED: [],
 };
 
