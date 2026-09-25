@@ -23,3 +23,7 @@ Inputs to the pure functions are assumed to have been validated by an applicatio
 ## Data handling
 
 Only explicitly selected source logic and newly created synthetic fixtures are included. No production configuration, internal domains, credentials, screenshots, customer data, database exports, transcripts, or original Git history are part of this repository.
+
+## Visual illustration
+
+`visual/index.html` is a standalone UI illustration made for this portfolio. It uses fictional cases and browser memory, with no backend or connection to the original application. The screenshots in `docs/images/` are captured from that file. The visual interactions communicate the selected domain rules; the TypeScript module remains the reviewed code extract.
