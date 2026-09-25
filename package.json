@@ -1,0 +1,14 @@
+{
+  "name": "qa-platform-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Selected QA execution rules with synthetic data and regression tests",
+  "engines": {
+    "node": ">=26"
+  },
+  "scripts": {
+    "demo": "node demo.ts",
+    "test": "node --test test/*.test.ts"
+  }
+}
